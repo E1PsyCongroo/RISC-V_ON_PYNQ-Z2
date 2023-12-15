@@ -1,0 +1,89 @@
+[*]
+[*] GTKWave Analyzer v3.3.117 (w)1999-2023 BSI
+[*] Wed Dec 13 10:01:27 2023
+[*]
+[dumpfile] "/home/focused_xy/cs/EECS151/Labs-FPGA/fpga_projects_fa23/hardware/sim/uart_parse_tb.fst"
+[dumpfile_mtime] "Wed Dec 13 09:58:09 2023"
+[dumpfile_size] 487276
+[savefile] "/home/focused_xy/cs/EECS151/Labs-FPGA/fpga_projects_fa23/hardware/wave_save/uart.gtkw"
+[timestart] 0
+[size] 1920 987
+[pos] -1 -1
+*-21.000000 8910900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] uart_parse_tb.
+[treeopen] uart_parse_tb.cpu.
+[treeopen] uart_parse_tb.cpu.u_mem_control.
+[treeopen] uart_parse_tb.cpu.u_mem_control.u_io_control.
+[sst_width] 246
+[signals_width] 249
+[sst_expanded] 1
+[sst_vpaned_height] 292
+@28
+uart_parse_tb.cpu.clk
+uart_parse_tb.cpu.rst
+uart_parse_tb.cpu.serial_in
+uart_parse_tb.cpu.serial_out
+@200
+-IF
+@22
+uart_parse_tb.cpu.pc_i[31:0]
+uart_parse_tb.cpu.pc_plus4_i[31:0]
+uart_parse_tb.cpu.pc_next[31:0]
+@28
+uart_parse_tb.cpu.pc_sel_i
+@22
+uart_parse_tb.cpu.instruction_i[31:0]
+@200
+-ID
+@22
+uart_parse_tb.cpu.instruction_r[31:0]
+@28
+uart_parse_tb.cpu.imm_type_r[2:0]
+@22
+uart_parse_tb.cpu.imm_result_r[31:0]
+uart_parse_tb.cpu.ra1_r[4:0]
+uart_parse_tb.cpu.ra2_r[4:0]
+uart_parse_tb.cpu.rd1_r[31:0]
+uart_parse_tb.cpu.rd2_r[31:0]
+@200
+-EX
+@28
+uart_parse_tb.cpu.rd1_sel[1:0]
+uart_parse_tb.cpu.rd2_sel[1:0]
+@22
+uart_parse_tb.cpu.data_forward1[31:0]
+uart_parse_tb.cpu.data_forward2[31:0]
+@28
+uart_parse_tb.cpu.jump_e
+uart_parse_tb.cpu.branch_e
+uart_parse_tb.cpu.branch_type_e[2:0]
+@29
+uart_parse_tb.cpu.pc_sel_e
+@22
+uart_parse_tb.cpu.srca[31:0]
+uart_parse_tb.cpu.srcb[31:0]
+uart_parse_tb.cpu.alu_result_e[31:0]
+@200
+-ME
+@22
+uart_parse_tb.cpu.alu_result_m[31:0]
+@28
+uart_parse_tb.cpu.mem_src_sel_m[1:0]
+uart_parse_tb.cpu.mem_type_m[2:0]
+@22
+uart_parse_tb.cpu.mem_din[31:0]
+uart_parse_tb.cpu.mem_data_m[31:0]
+@28
+uart_parse_tb.cpu.u_mem_control.u_io_control.data_in_ready
+uart_parse_tb.cpu.u_mem_control.u_io_control.data_in_valid
+uart_parse_tb.cpu.u_mem_control.u_io_control.data_out_ready
+uart_parse_tb.cpu.u_mem_control.u_io_control.data_out_valid
+@200
+-WB
+@28
+uart_parse_tb.cpu.regfile_we
+@22
+uart_parse_tb.cpu.wa[4:0]
+uart_parse_tb.cpu.regfile_wd[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

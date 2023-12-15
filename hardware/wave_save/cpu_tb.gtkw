@@ -1,0 +1,128 @@
+[*]
+[*] GTKWave Analyzer v3.3.117 (w)1999-2023 BSI
+[*] Wed Dec 13 12:29:34 2023
+[*]
+[dumpfile] "(null)"
+[savefile] "/home/focused_xy/cs/EECS151/Labs-FPGA/fpga_projects_fa23/hardware/wave_save/cpu_tb.gtkw"
+[timestart] 4222600
+[size] 1920 987
+[pos] -1 -1
+*-16.200001 4312900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cpu_tb.
+[treeopen] cpu_tb.cpu.
+[sst_width] 246
+[signals_width] 299
+[sst_expanded] 1
+[sst_vpaned_height] 292
+@22
+cpu_tb.cycle[31:0]
+cpu_tb.current_test_id[31:0]
+@820
+cpu_tb.current_test_type[255:0]
+@28
+cpu_tb.cpu.clk
+cpu_tb.rst
+@200
+-IF
+@22
+cpu_tb.cpu.u_pc.pc[31:0]
+cpu_tb.cpu.pc_i[31:0]
+@28
+cpu_tb.cpu.pc_sel_i
+@22
+cpu_tb.cpu.pc_plus4_i[31:0]
+@420
+cpu_tb.cpu.alu_result_i[31:0]
+@22
+cpu_tb.cpu.pc_next[31:0]
+cpu_tb.cpu.instruction_i[31:0]
+@200
+-ID
+@22
+cpu_tb.cpu.pc_r[31:0]
+cpu_tb.cpu.pc_plus4_r[31:0]
+cpu_tb.cpu.instruction_r[31:0]
+@28
+cpu_tb.cpu.alu_srca_sel_r
+cpu_tb.cpu.alu_srcb_sel_r
+@22
+cpu_tb.cpu.alu_control_r[3:0]
+@28
+cpu_tb.cpu.imm_type_r[2:0]
+cpu_tb.cpu.jump_r
+cpu_tb.cpu.branch_r
+cpu_tb.cpu.branch_type_r[2:0]
+cpu_tb.cpu.mem_type_r[2:0]
+cpu_tb.cpu.mem_we_r
+cpu_tb.cpu.regfile_we_r
+cpu_tb.cpu.regfile_src_sel_r[1:0]
+cpu_tb.cpu.iflag_r
+@420
+cpu_tb.cpu.imm_result_r[31:0]
+@22
+cpu_tb.cpu.ra1_r[4:0]
+cpu_tb.cpu.ra2_r[4:0]
+@24
+cpu_tb.cpu.rd1_r[31:0]
+cpu_tb.cpu.rd2_r[31:0]
+@28
+cpu_tb.cpu.rd1_sel[1:0]
+cpu_tb.cpu.rd2_sel[1:0]
+@23
+cpu_tb.cpu.data_forward1[31:0]
+@420
+cpu_tb.cpu.data_forward2[31:0]
+@200
+-EX
+@420
+cpu_tb.cpu.rd1_e[31:0]
+cpu_tb.cpu.rd2_e[31:0]
+@28
+cpu_tb.cpu.alu_srca_sel_e
+cpu_tb.cpu.alu_srcb_sel_e
+@420
+cpu_tb.cpu.srca[31:0]
+cpu_tb.cpu.srcb[31:0]
+@28
+cpu_tb.cpu.alu_control_e[3:0]
+@24
+cpu_tb.cpu.alu_result_e[31:0]
+@28
+cpu_tb.cpu.branch_e
+cpu_tb.cpu.branch_type_e[2:0]
+cpu_tb.cpu.pc_sel_e
+@24
+cpu_tb.cpu.rd2_e[31:0]
+@200
+-ME
+@24
+cpu_tb.cpu.u_csr_mux.ina[31:0]
+@22
+cpu_tb.cpu.u_csr_mux.inb[31:0]
+cpu_tb.cpu.mem_din[31:0]
+@28
+cpu_tb.cpu.mem_we_m
+cpu_tb.cpu.mem_type_m[2:0]
+@420
+cpu_tb.cpu.alu_result_m[31:0]
+@22
+cpu_tb.cpu.mem_data_m[31:0]
+@200
+-WB
+@28
+cpu_tb.cpu.regfile_src_sel_w[1:0]
+cpu_tb.cpu.regfile_we
+@c00024
+cpu_tb.cpu.wa[4:0]
+@28
+(0)cpu_tb.cpu.wa[4:0]
+(1)cpu_tb.cpu.wa[4:0]
+(2)cpu_tb.cpu.wa[4:0]
+(3)cpu_tb.cpu.wa[4:0]
+(4)cpu_tb.cpu.wa[4:0]
+@1401200
+-group_end
+@420
+cpu_tb.cpu.regfile_wd[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,132 @@
+[*]
+[*] GTKWave Analyzer v3.3.117 (w)1999-2023 BSI
+[*] Wed Dec 13 06:23:18 2023
+[*]
+[dumpfile] "/home/focused_xy/cs/EECS151/Labs-FPGA/fpga_projects_fa23/hardware/sim/c_tests/strcmp.fst"
+[dumpfile_mtime] "Wed Dec 13 06:19:22 2023"
+[dumpfile_size] 20194
+[savefile] "/home/focused_xy/cs/EECS151/Labs-FPGA/fpga_projects_fa23/hardware/wave_save/strcmp.gtkw"
+[timestart] 180000
+[size] 1920 987
+[pos] -461 -194
+*-15.600000 256400 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] c_tests_tb.
+[treeopen] c_tests_tb.cpu.
+[treeopen] c_tests_tb.cpu.u_mem_control.
+[sst_width] 246
+[signals_width] 300
+[sst_expanded] 1
+[sst_vpaned_height] 292
+@28
+c_tests_tb.cpu.clk
+c_tests_tb.cpu.rst
+@22
+c_tests_tb.cycle[31:0]
+@200
+-IF
+@22
+c_tests_tb.cpu.pc_i[31:0]
+c_tests_tb.cpu.pc_plus4_i[31:0]
+c_tests_tb.cpu.pc_next[31:0]
+c_tests_tb.cpu.instruction_i[31:0]
+@200
+-ID
+@22
+c_tests_tb.cpu.instruction_r[31:0]
+@28
+c_tests_tb.cpu.imm_type_r[2:0]
+@22
+c_tests_tb.cpu.imm_result_r[31:0]
+c_tests_tb.cpu.ra1_r[4:0]
+c_tests_tb.cpu.ra2_r[4:0]
+c_tests_tb.cpu.rd1_r[31:0]
+c_tests_tb.cpu.rd2_r[31:0]
+c_tests_tb.cpu.wa_r[4:0]
+@200
+-EX
+@22
+c_tests_tb.cpu.ra1_e[4:0]
+c_tests_tb.cpu.ra2_e[4:0]
+c_tests_tb.cpu.wa_m[4:0]
+c_tests_tb.cpu.wa_w[4:0]
+@28
+c_tests_tb.cpu.rd1_sel[1:0]
+c_tests_tb.cpu.rd2_sel[1:0]
+@22
+c_tests_tb.cpu.data_forward1[31:0]
+c_tests_tb.cpu.data_forward2[31:0]
+@28
+c_tests_tb.cpu.alu_srca_sel_e
+c_tests_tb.cpu.alu_srcb_sel_e
+@22
+c_tests_tb.cpu.srca[31:0]
+c_tests_tb.cpu.srcb[31:0]
+@c00022
+c_tests_tb.cpu.alu_result_e[31:0]
+@28
+(0)c_tests_tb.cpu.alu_result_e[31:0]
+(1)c_tests_tb.cpu.alu_result_e[31:0]
+(2)c_tests_tb.cpu.alu_result_e[31:0]
+(3)c_tests_tb.cpu.alu_result_e[31:0]
+(4)c_tests_tb.cpu.alu_result_e[31:0]
+(5)c_tests_tb.cpu.alu_result_e[31:0]
+(6)c_tests_tb.cpu.alu_result_e[31:0]
+(7)c_tests_tb.cpu.alu_result_e[31:0]
+(8)c_tests_tb.cpu.alu_result_e[31:0]
+(9)c_tests_tb.cpu.alu_result_e[31:0]
+(10)c_tests_tb.cpu.alu_result_e[31:0]
+(11)c_tests_tb.cpu.alu_result_e[31:0]
+(12)c_tests_tb.cpu.alu_result_e[31:0]
+(13)c_tests_tb.cpu.alu_result_e[31:0]
+(14)c_tests_tb.cpu.alu_result_e[31:0]
+(15)c_tests_tb.cpu.alu_result_e[31:0]
+(16)c_tests_tb.cpu.alu_result_e[31:0]
+(17)c_tests_tb.cpu.alu_result_e[31:0]
+(18)c_tests_tb.cpu.alu_result_e[31:0]
+(19)c_tests_tb.cpu.alu_result_e[31:0]
+(20)c_tests_tb.cpu.alu_result_e[31:0]
+(21)c_tests_tb.cpu.alu_result_e[31:0]
+(22)c_tests_tb.cpu.alu_result_e[31:0]
+(23)c_tests_tb.cpu.alu_result_e[31:0]
+(24)c_tests_tb.cpu.alu_result_e[31:0]
+(25)c_tests_tb.cpu.alu_result_e[31:0]
+(26)c_tests_tb.cpu.alu_result_e[31:0]
+(27)c_tests_tb.cpu.alu_result_e[31:0]
+(28)c_tests_tb.cpu.alu_result_e[31:0]
+(29)c_tests_tb.cpu.alu_result_e[31:0]
+(30)c_tests_tb.cpu.alu_result_e[31:0]
+(31)c_tests_tb.cpu.alu_result_e[31:0]
+@1401200
+-group_end
+@28
+c_tests_tb.cpu.jump_e
+c_tests_tb.cpu.branch_e
+c_tests_tb.cpu.branch_type_e[2:0]
+c_tests_tb.cpu.pc_sel_e
+@200
+-ME
+@22
+c_tests_tb.cpu.alu_result_m[31:0]
+@28
+c_tests_tb.cpu.mem_src_sel_m[1:0]
+@22
+c_tests_tb.cpu.rd1_m[31:0]
+@28
+c_tests_tb.cpu.mem_type_m[2:0]
+c_tests_tb.cpu.mem_we_m
+@22
+c_tests_tb.cpu.mem_din[31:0]
+c_tests_tb.cpu.mem_data_m[31:0]
+c_tests_tb.cpu.u_mem_control.u_csr.dout[31:0]
+@23
+c_tests_tb.cpu.u_mem_control.csr_reg[31:0]
+@200
+-WB
+@28
+c_tests_tb.cpu.regfile_we
+@24
+c_tests_tb.cpu.wa[4:0]
+@22
+c_tests_tb.cpu.regfile_wd[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
